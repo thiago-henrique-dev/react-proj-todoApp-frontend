@@ -8,11 +8,11 @@ export default props => (
                     <i className='fa fa-calendar-check-o'></i> TodoApp
                 </a>
             </div>
+
             <div id='navbar' className='navbar-collapse collapse'>
                 <ul class='nav navbar-nav'>
                     <li><a href="#/todos">Tarefas</a></li>
-                    <li><a href="#/todos">Sobre</a></li>
-
+                    <li><a href="#/about">Sobre</a></li>
                 </ul>
             </div>
         </div>
