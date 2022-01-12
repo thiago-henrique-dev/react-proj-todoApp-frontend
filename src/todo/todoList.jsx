@@ -1,6 +1,9 @@
 import React from 'react'
 import IconButton from '../template/IconButton'
 
+
+
+
 export default props => {
         const renderRows = () => {
             const list = props.list || []
@@ -30,7 +33,7 @@ export default props => {
                 <thead> 
                     <tr>
                         <th>Descrição</th>
-                        <th>Ação</th>
+                        <th className='tableAction'>Ações</th> 
                         </tr>
                 </thead>
                 <tbody>
